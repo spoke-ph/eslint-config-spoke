@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-spoke",
+  "version": "0.0.1",
+  "description": "Spoke's ESLint config",
+  "license": "Unlicense",
+  "author": {
+    "name": "Spoke",
+    "url": "https://github.com/spoke-ph"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spoke-ph/eslint-config-spoke"
+  },
+  "bugs": {
+    "url": "https://github.com/spoke-ph/eslint-config-spoke/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-flowtype": "^4.5.2",
+    "@typescript-eslint/parser": "^2.12.0"
+  }
+}
