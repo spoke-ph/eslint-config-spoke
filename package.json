@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spoke",
-  "version": "0.0.1-rc2",
+  "version": "0.1.0",
   "description": "Spoke's ESLint config",
   "license": "Unlicense",
   "author": {
@@ -19,11 +19,18 @@
     "eslintconfig"
   ],
   "main": "index.js",
+  "scripts": {
+    "release:changelog": "release-changelog",
+    "version": "echo $npm_package_version"
+  },
+  "devDependencies": {
+    "@spoke-ph/changelog": "1.0.2"
+  },
   "peerDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.2",
-    "eslint-plugin-flowtype": "^4.5.2",
-    "@typescript-eslint/parser": "^2.12.0",
-    "@typescript-eslint/eslint-plugin": "^2.12.0"
+    "eslint": "^6.8.0",
+    "eslint-plugin-flowtype": "^4.5.3",
+    "@typescript-eslint/parser": "^2.14.0",
+    "@typescript-eslint/eslint-plugin": "^2.14.0"
   }
 }
