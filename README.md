@@ -1,6 +1,4 @@
 # Spoke Eslint Config
-![](https://media1.tenor.com/images/83a5243f6c77e72b06b42de07b30053a/tenor.gif)
-
 This package provides Spoke's .eslintrc as an extensible [shared config](https://eslint.org/docs/developer-guide/shareable-configs) :sparkles:
 
 ## Install and Setup
