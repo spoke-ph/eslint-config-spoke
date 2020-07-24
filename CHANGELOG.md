@@ -4,6 +4,11 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## Unreleased
 
+## 0.3.0 - 2020-07-24
+### Removed
+- Dependency on tslint
+  - Only the tslint `one-line` rule is not covered by configured eslint defaults.
+
 ## 0.2.0 - 2020-07-16
 ### Added
 - `node` Preset
