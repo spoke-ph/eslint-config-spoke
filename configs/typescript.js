@@ -6,7 +6,6 @@ module.exports = {
   },
   "plugins": [
       "@typescript-eslint",
-      "@typescript-eslint/tslint"
   ],
   "rules": {
       "@typescript-eslint/class-name-casing": "error",
@@ -33,30 +32,6 @@ module.exports = {
           "off",
           "never"
       ],
-      "@typescript-eslint/type-annotation-spacing": "error",
-      "@typescript-eslint/tslint/config": [
-          "error",
-          {
-              "rules": {
-                  "object-curly-spacing": [
-                      true,
-                      "always"
-                  ],
-                  "one-line": [
-                      true,
-                      "check-open-brace",
-                      "check-whitespace"
-                  ],
-                  "whitespace": [
-                      true,
-                      "check-branch",
-                      "check-decl",
-                      "check-operator",
-                      "check-separator",
-                      "check-type"
-                  ]
-              }
-          }
-      ]
+      "@typescript-eslint/type-annotation-spacing": "error"
   }
 };
