@@ -29,6 +29,7 @@ module.exports = {
         destructuring: "all"
       }
     ],
+    "brace-style": ["error"],
     "no-multiple-empty-lines": ["error", { max: 1, maxBOF: 0, maxEOF: 0 }],
     "comma-spacing": ["error"],
     "generator-star-spacing": ["error", { before: false, after: true }],
@@ -40,10 +41,24 @@ module.exports = {
     "no-console": "off",
     "object-curly-spacing": ["error", "always"],
     "keyword-spacing": ["error", { after: true }],
+    "array-bracket-spacing": ["error"],
     "max-lines": ["error", {
       max: 600,
       skipBlankLines: true,
       skipComments: true
-    }]
+    }],
+    "space-before-blocks": ["error"],
+    "space-before-function-paren": ["error", {
+      anonymous: "never",
+      named: "never",
+      asyncArrow: "always"
+    }],
+    "comma-dangle": ["error", {
+      arrays: "never",
+      objects: "always-multiline",
+      imports: "never",
+      exports: "never",
+      functions: "never"
+    }],
   }
 };
