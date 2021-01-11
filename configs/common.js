@@ -55,7 +55,7 @@ module.exports = {
     }],
     "comma-dangle": ["error", {
       arrays: "never",
-      objects: "always-multiline",
+      objects: "never",
       imports: "never",
       exports: "never",
       functions: "never"
