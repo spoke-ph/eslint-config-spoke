@@ -4,6 +4,22 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## [Unreleased]
 
+## [0.6.0] - 2021-02-28
+### Added
+- New `@typescript-eslint/naming-convention` to replace the removed rule
+  - The rule options are constructed from our current use cases in other repositories
+
+### Changed
+- Upgrade
+  - @spoke-ph/changelog                 1.0.2  →    1.2.0
+  - eslint                             ^6.8.0  →  ^7.21.0
+  - eslint-plugin-flowtype             ^4.5.3  →   ^5.3.1
+  - @typescript-eslint/parser         ^2.14.0  →  ^4.15.2
+  - @typescript-eslint/eslint-plugin  ^2.14.0  →  ^4.15.2
+
+### Removed
+- Removed rule `@typescript-eslint/class-name-casing`
+
 ## [0.5.0] - 2021-01-11
 ### Changed
 - `comma-dangle.objects` to `never` This added more work than value for existing repositories
@@ -31,7 +47,8 @@ This repository adheres to semantic versioning and follows the conventions of [k
 - `babel`, `common`, `flow`, `mocha`, `node` and `typecript` Configs
 - `common`, `flowService` and `typescriptService` Presets
 
-[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.5.0...HEAD
+[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.6.0...HEAD
+[0.6.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.2.0...v0.3.0
