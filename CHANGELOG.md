@@ -4,6 +4,11 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## [Unreleased]
 
+## [0.7.0] - 2021-03-11
+### Changed
+- `@typescript-eslint/naming-convention`
+  - Allow `UPPER_CASE` for enumMember
+
 ## [0.6.0] - 2021-02-28
 ### Added
 - New `@typescript-eslint/naming-convention` to replace the removed rule
@@ -47,7 +52,8 @@ This repository adheres to semantic versioning and follows the conventions of [k
 - `babel`, `common`, `flow`, `mocha`, `node` and `typecript` Configs
 - `common`, `flowService` and `typescriptService` Presets
 
-[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.6.0...HEAD
+[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.7.0...HEAD
+[0.7.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.3.0...v0.4.0

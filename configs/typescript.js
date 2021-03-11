@@ -31,7 +31,7 @@ module.exports = {
         },
         {
           selector: "enumMember",
-          format: ["PascalCase", "camelCase"]
+          format: ["PascalCase", "camelCase", "UPPER_CASE"]
         },
         {
           selector: ["typeProperty", "typeAlias", "typeParameter"],
