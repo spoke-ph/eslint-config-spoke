@@ -24,6 +24,8 @@ e.g. using the `typescriptService` and `mocha` linting rules
 
 ## Linting Rules
 
+Some of the code rules we have at Spoke cannot be enforced by eslint. This is the list of those rules along with examples.
+
 ### Importing files
 
 Rule: Keep the dependencies at the top, followed by a white line, then list any local file imports.
