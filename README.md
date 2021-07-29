@@ -17,3 +17,14 @@ e.g. using the `typescriptService` and `mocha` linting rules
   "extends": ["spoke/presets/typescriptService", "spoke/configs/mocha"]
 }
 ```
+
+## Linting Rules
+  ### Importing files
+  Rule: Keep the dependencies at the top, followed by a white line, then list any local file imports.
+  Repository: All
+  Example:
+  ```
+  import React from "react"
+  //Empty line
+  import NavBar from "./NavBar"
+  ```

@@ -3,6 +3,8 @@
 This repository adheres to semantic versioning and follows the conventions of [keepachangelog.com](http://keepachangelog.com)
 
 ## [Unreleased]
+### Added
+- New linting rules section in read me
 
 ## [0.6.0] - 2021-02-28
 ### Added

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spoke",
-  "version": "0.6.0",
+  "version": "0.7.0-SNAPSHOT",
   "description": "Spoke's ESLint config",
   "license": "Unlicense",
   "author": {
