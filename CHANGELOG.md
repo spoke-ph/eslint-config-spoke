@@ -5,6 +5,7 @@ This repository adheres to semantic versioning and follows the conventions of [k
 ## [Unreleased]
 ### Added
 - New linting rules section in read me
+- Use `org-global` context for CircleCI jobs
 
 ## [0.6.0] - 2021-02-28
 ### Added
