@@ -32,3 +32,10 @@ jobs:
               else
                 echo "Skip as branch not master"
               fi
+
+workflows:
+  version: 2
+  Build_Test:
+    jobs:
+      - build:
+          context: org-global
