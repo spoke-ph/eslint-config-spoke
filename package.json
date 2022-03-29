@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spoke",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Spoke's ESLint config",
   "license": "Unlicense",
   "author": {
@@ -30,6 +30,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^7.21.0",
     "eslint-plugin-flowtype": "^5.3.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "@typescript-eslint/parser": "^4.15.2",
     "@typescript-eslint/eslint-plugin": "^4.15.2"
   }
