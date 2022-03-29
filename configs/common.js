@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     "eslint:recommended"
   ],
+  plugins: ["simple-import-sort"],
   rules: {
     indent: [
       "error",
@@ -60,5 +61,6 @@ module.exports = {
       exports: "never",
       functions: "never"
     }],
+    "simple-import-sort/imports": "error"
   }
 };
