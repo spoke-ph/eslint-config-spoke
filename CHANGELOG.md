@@ -8,6 +8,9 @@ This repository adheres to semantic versioning and follows the conventions of [k
 ### Added
 - ESLint rule `curly` to automatically fix inline code body for `if`, `else`, `for` and `while` etc
 
+### Changed
+- Moved `eslint-plugin-simple-import-sort` from `peerDependencies` to `dependencies`
+
 ## [0.8.0] - 2022-03-29
 ### Added
 - New `simple-import-sort/imports` linting rule and `simple-import-sort` peer dependency
