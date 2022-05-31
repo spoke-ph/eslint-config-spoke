@@ -61,6 +61,7 @@ module.exports = {
       exports: "never",
       functions: "never"
     }],
-    "simple-import-sort/imports": "error"
+    "simple-import-sort/imports": "error",
+    "curly": ["error"]
   }
 };
