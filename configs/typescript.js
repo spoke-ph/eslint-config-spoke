@@ -66,6 +66,13 @@ module.exports = {
           "off",
           "never"
       ],
-      "@typescript-eslint/type-annotation-spacing": "error"
+      "@typescript-eslint/type-annotation-spacing": "error",
+      "@typescript-eslint/indent": [
+        "error",
+        2,
+        {
+          SwitchCase: 1
+        }
+      ],
   }
 };

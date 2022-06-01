@@ -7,6 +7,7 @@ This repository adheres to semantic versioning and follows the conventions of [k
 ## [0.9.0] - 2022-05-31
 ### Added
 - ESLint rule `curly` to automatically fix inline code body for `if`, `else`, `for` and `while` etc
+- ESLint rule `@typescript-eslint/indent` to typescript config to automatically fix Typescript node indentation issues
 
 ### Changed
 - Moved `eslint-plugin-simple-import-sort` from `peerDependencies` to `dependencies`
