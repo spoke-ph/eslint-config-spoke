@@ -74,5 +74,6 @@ module.exports = {
                 SwitchCase: 1
             }
         ],
+        "@typescript-eslint/space-infix-ops": "error"
     }
 };
