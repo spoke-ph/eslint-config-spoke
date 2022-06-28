@@ -6,7 +6,7 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## [0.11.0] - 2022-06-28
 ### Added
-- ESLint rule `@typescript-eslint/explicit-function-return-type` to typescript config to force explicit define function return type for TypeScript code
+- ESLint rule `@typescript-eslint/explicit-function-return-type` to typescript config for defining function return type explicitly for TypeScript code
 
 ## [0.10.0] - 2022-06-09
 ### Added
