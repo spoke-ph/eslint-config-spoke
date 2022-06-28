@@ -74,6 +74,16 @@ module.exports = {
                 SwitchCase: 1
             }
         ],
-        "@typescript-eslint/space-infix-ops": "error"
-    }
+        "@typescript-eslint/space-infix-ops": "error",
+        "@typescript-eslint/explicit-function-return-type": "off",
+    },
+    "overrides": [
+        {
+          // enable the rule specifically for TypeScript files
+          "files": ["*.ts", "*.mts", "*.cts", "*.tsx"],
+          "rules": {
+            "@typescript-eslint/explicit-function-return-type": ["error"]
+          }
+        }
+    ]
 };
