@@ -4,6 +4,10 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## [Unreleased]
 
+## [1.1.0] - 2022-10-03
+### Changed
+- Peer dependencies can now use newer major versions
+
 ## [1.0.0] - 2022-10-03
 ### Changed
 - **BREAKING** Upgrade peer dependencies: Users of this library must upgrade the following libraries
@@ -79,7 +83,8 @@ This repository adheres to semantic versioning and follows the conventions of [k
 - `babel`, `common`, `flow`, `mocha`, `node` and `typecript` Configs
 - `common`, `flowService` and `typescriptService` Presets
 
-[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.11.0...v1.0.0
 [0.11.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.10.0...v0.11.0
 [0.10.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.9.0...v0.10.0
