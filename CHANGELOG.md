@@ -3,6 +3,10 @@
 This repository adheres to semantic versioning and follows the conventions of [keepachangelog.com](http://keepachangelog.com)
 
 ## [Unreleased]
+### Changed
+- Upgrade peer dependencies
+  - @typescript-eslint/parser         ^4.15.2 → ^5.0.0
+  - @typescript-eslint/eslint-plugin  ^4.15.2 → ^5.0.0
 
 ## [0.11.0] - 2022-06-28
 ### Added
