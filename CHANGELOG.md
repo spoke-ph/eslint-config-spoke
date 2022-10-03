@@ -6,10 +6,10 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## [1.0.0] - 2022-10-03
 ### Changed
-- Upgrade peer dependencies
+- **BREAKING** Upgrade peer dependencies: Users of this library must upgrade the following libraries
   - @typescript-eslint/parser         ^4.15.2 → ^5.0.0
   - @typescript-eslint/eslint-plugin  ^4.15.2 → ^5.0.0
-- Upgrade from Node 14 Node 16
+- Upgrade from Node 14 to Node 16
 
 ## [0.11.0] - 2022-06-28
 ### Added
