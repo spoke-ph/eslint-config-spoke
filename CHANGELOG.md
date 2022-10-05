@@ -4,6 +4,12 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## [Unreleased]
 
+## [1.2.0] - 2022-10-05
+### Changed
+- Dont require explicit return types on function expressions
+  - ESLint rule `@typescript-eslint/explicit-function-return-type` now has `allowExpressions: true`
+  - See [here](https://typescript-eslint.io/rules/explicit-function-return-type/#options) for more info
+
 ## [1.1.0] - 2022-10-03
 ### Changed
 - Peer dependencies can now use newer major versions
@@ -83,7 +89,8 @@ This repository adheres to semantic versioning and follows the conventions of [k
 - `babel`, `common`, `flow`, `mocha`, `node` and `typecript` Configs
 - `common`, `flowService` and `typescriptService` Presets
 
-[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.11.0...v1.0.0
 [0.11.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.10.0...v0.11.0
