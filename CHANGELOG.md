@@ -4,6 +4,16 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## [Unreleased]
 
+## [1.3.0] - 2023-02-07
+### Added
+- ESLint rule `no-whitespace-before-property` to ensure there are no before property i.e. `myMock .expects()` will fail
+
+### Changed
+- Upgrade @spoke-ph/changelog 1.2.0  →  1.5.0
+
+### Removed
+- `.DS_Store` file and ensure it's ignored
+
 ## [1.2.0] - 2022-10-05
 ### Changed
 - Dont require explicit return types on function expressions
@@ -84,12 +94,13 @@ This repository adheres to semantic versioning and follows the conventions of [k
 ### Added
 - `node` Preset
 
-## 0.1.0 - 2020-01-06
+## [0.1.0] - 2020-01-06
 ### Added
 - `babel`, `common`, `flow`, `mocha`, `node` and `typecript` Configs
 - `common`, `flowService` and `typescriptService` Presets
 
-[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.11.0...v1.0.0
@@ -103,3 +114,4 @@ This repository adheres to semantic versioning and follows the conventions of [k
 [0.4.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/spoke-ph/eslint-config-spoke/releases/tag/v0.1.0

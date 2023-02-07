@@ -62,6 +62,7 @@ module.exports = {
       functions: "never"
     }],
     "simple-import-sort/imports": "error",
+    "no-whitespace-before-property": "error",
     "curly": ["error"],
     "space-infix-ops": "error"
   }
