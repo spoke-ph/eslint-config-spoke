@@ -4,6 +4,20 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## [Unreleased]
 
+## [2.0.0] - 2023-11-15
+### Added
+- `lint` npm script
+
+### Changed
+- Upgrade Node to 18
+- **BREAKING** Require eslint 8+
+- Replace deprecated `babel-eslint` peer dependency with `@babel/eslint-parser`
+- Make specific flavored peer dependencies optional (but with minimum version still enforced if installed) as not all projects will have them installed
+  - `@babel/eslint-parser`
+  - `eslint-plugin-flowtype`
+  - `@typescript-eslint/eslint-plugin`
+  - `@typescript-eslint/parser`
+
 ## [1.3.0] - 2023-02-07
 ### Added
 - ESLint rule `no-whitespace-before-property` to ensure there are no before property i.e. `myMock .expects()` will fail
@@ -99,7 +113,8 @@ This repository adheres to semantic versioning and follows the conventions of [k
 - `babel`, `common`, `flow`, `mocha`, `node` and `typecript` Configs
 - `common`, `flowService` and `typescriptService` Presets
 
-[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.3.0...v2.0.0
 [1.3.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.0.0...v1.1.0
