@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/eslint-config-spoke
     docker:
-      - image: cimg/node:16.17
+      - image: cimg/node:18.18
     steps:
       - checkout
       - run:
@@ -20,6 +20,9 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
+      - run:
+          name: lint
+          command: npm run lint
       - deploy:
           name: NPM Publish
           command: |
