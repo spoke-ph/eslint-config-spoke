@@ -25,6 +25,10 @@ module.exports = {
         leadingUnderscore: "allow"
       },
       {
+        selector: "import",
+        format: ["camelCase", "PascalCase"]
+      },
+      {
         selector: ["typeLike", "typeAlias", "typeParameter"],
         format: ["PascalCase"],
         leadingUnderscore: "allow"
