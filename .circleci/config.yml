@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/eslint-config-spoke
     docker:
-      - image: cimg/node:18.18
+      - image: cimg/node:20.11
     steps:
       - checkout
       - run:

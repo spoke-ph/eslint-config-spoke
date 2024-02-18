@@ -4,6 +4,14 @@ This repository adheres to semantic versioning and follows the conventions of [k
 
 ## [Unreleased]
 
+## [2.2.0] - 2024-02-18
+### Added
+- `quote-props` rule
+
+### Changed
+- Upgrade Node to 20
+- Upgrade eslint  8.55.0  →  8.56.0
+
 ## [2.1.0] - 2023-12-13
 ### Changed
 - Modify `@typescript-eslint/naming-convention` rule to allow importing PascalCase names
@@ -119,7 +127,8 @@ This repository adheres to semantic versioning and follows the conventions of [k
 - `babel`, `common`, `flow`, `mocha`, `node` and `typecript` Configs
 - `common`, `flowService` and `typescriptService` Presets
 
-[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v2.1.0...HEAD
+[Unreleased]: https://github.com/spoke-ph/eslint-config-spoke/compare/v2.2.0...HEAD
+[2.2.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.3.0...v2.0.0
 [1.3.0]: https://github.com/spoke-ph/eslint-config-spoke/compare/v1.2.0...v1.3.0
