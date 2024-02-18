@@ -18,7 +18,7 @@ module.exports = {
     quotes: [
       "error",
       "double",
-      { "allowTemplateLiterals": true }
+      { allowTemplateLiterals: true }
     ],
     semi: [
       "error",
@@ -63,7 +63,8 @@ module.exports = {
     }],
     "simple-import-sort/imports": "error",
     "no-whitespace-before-property": "error",
-    "curly": ["error"],
-    "space-infix-ops": "error"
+    curly: ["error"],
+    "space-infix-ops": "error",
+    "quote-props": ["error", "as-needed"]
   }
 };
